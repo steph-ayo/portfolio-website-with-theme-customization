@@ -1,6 +1,8 @@
 import { MdOutlineFileDownload } from "react-icons/md";
 import AboutImage from "../../assets/about.jpg";
 import CV from "../../assets/cv.pdf";
+import Card from "../../components/Card";
+import data from "./data";
 import "./about.css";
 
 const About = () => {
@@ -14,7 +16,15 @@ const About = () => {
         </div>
         <div className="about__right">
           <h2>About Me</h2>
-          <div className="about__cards"></div>
+          <div className="about__cards">
+            {data.map((item) => (
+              <Card key={item.id} className="about__card">
+                <span className="about__card-icon">{item.icon}</span>
+                <h5>{item.title}</h5>
+                <small>{item.desc}</small>
+              </Card>
+            ))}
+          </div>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
             amet enim pariatur fuga veritatis ea suscipit porro neque
