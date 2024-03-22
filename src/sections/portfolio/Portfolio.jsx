@@ -13,6 +13,7 @@ const Portfolio = () => {
   const filterProjectsHandler = (category) => {
     if (category === "all") {
       setProjects(data);
+      return;
     }
     const filterProjects = data.filter(
       (project) => project.category === category
@@ -28,7 +29,10 @@ const Portfolio = () => {
         butoons to toggle the different categories.
       </p>
       <div className="container portfolio__container">
-        <ProjectsCategories categories={uniqueCategories} />
+        <ProjectsCategories
+          categories={uniqueCategories}
+          onFilterProjects={filterProjectsHandler}
+        />
         <Projects projects={projects} />
       </div>
     </section>

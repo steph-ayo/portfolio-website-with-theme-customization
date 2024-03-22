@@ -1,5 +1,9 @@
-const CategoryButton = ({ category, className }) => {
-  return <button className={className}>{category}</button>;
+const CategoryButton = ({ category, className, onChangeCategory }) => {
+  return (
+    <button className={className} onClick={() => onChangeCategory(category)}>
+      {category}
+    </button>
+  );
 };
 
 export default CategoryButton;
