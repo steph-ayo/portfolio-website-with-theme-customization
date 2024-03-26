@@ -8,6 +8,14 @@
   text-align: center;
   box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.2);
   padding: 3rem;
+  opacity: 0;
+  animation: animateModal 500ms ease-in forwards;
+}
+
+@keyframes animateModal {
+  to {
+    opacity: 1;
+  }
 }
 
 .card.theme__modal:hover {
@@ -81,12 +89,4 @@
 
 .theme__background-colors .bg-2 {
   background: #111;
-}
-
-/* MEDIA QUERIES (phones) */
-@media screen and (max-width: 600px) {
-  .card.theme__modal {
-    width: var(--container-width-md);
-    padding: 3rem 1.5rem;
-  }
 }

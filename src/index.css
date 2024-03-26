@@ -38,8 +38,6 @@ html {
 }
 
 body {
-  /* // <uniquifier>: Use a unique and descriptive class name
-  // <weight>: Use a value from 100 to 900 */
   font-family: "Montserrat", sans-serif;
   line-height: 1.6;
   font-size: 0.9rem;
@@ -65,7 +63,19 @@ main.color-6 {
   --primary-hue: 55;
 }
 
+main.bg-2 {
+  --black-lightness: 96%;
+  --dark-lightness: 60%;
+  --light-lightness: 12%;
+  --white-lightness: 6%;
+  --color-white: hsl(0, 5%, var(--white-lightness));
+  --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
+  --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
+  --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+}
+
 main {
+  color: var(--color-dark);
   --color-primary: hsl(var(--primary-hue), 89%, 41%);
 }
 
@@ -99,7 +109,7 @@ section > p {
 
 /* GENERAL SECTION STYLES */
 a {
-  color: var(--color-white);
+  /* color: var(--color-white); */
   transition: var(--transition);
 }
 
@@ -121,6 +131,7 @@ h1 {
 h2 {
   font-size: 2rem;
 }
+
 h3 {
   font-size: 1.6rem;
 }
@@ -132,6 +143,7 @@ h4 {
 h5 {
   font-size: 0.95rem;
 }
+
 h6 {
   font-size: 0.8rem;
 }
@@ -170,12 +182,12 @@ img {
 
 .btn.white:hover {
   background: transparent;
-  background: var(--color-white);
+  border-color: var(--color-white);
 }
 
 .btn.primary {
   background: var(--color-primary);
-  /* text color will always be white thats why i didn't use a variable color */
+  /* text color always white that's why i didn't use a variable color */
   color: white;
 }
 

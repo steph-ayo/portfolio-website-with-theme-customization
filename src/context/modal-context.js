@@ -11,6 +11,7 @@ export const ModalProvider = ({ children }) => {
   const closeModalHandler = () => {
     setShowModal(false);
   };
+
   return (
     <ModalContext.Provider
       value={{ showModal, showModalHandler, closeModalHandler }}
@@ -20,7 +21,7 @@ export const ModalProvider = ({ children }) => {
   );
 };
 
-//Custom hook to consume the modal context anywhere in our app
+// custom hook to consume the modal context anywehre in our app
 export const useModalContext = () => {
   return useContext(ModalContext);
 };

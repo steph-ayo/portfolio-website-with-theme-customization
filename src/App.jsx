@@ -7,13 +7,13 @@ import Testimonials from "./sections/testimonials/Testimonials";
 import FAQs from "./sections/faqs/FAQs";
 import Contact from "./sections/contact/Contact";
 import Footer from "./sections/footer/Footer";
-import Modal from "./components/Modal";
+import FloatingNav from "./sections/floating-nav/FloatingNav";
 import Theme from "./theme/Theme";
 import { useThemeContext } from "./context/theme-context";
-// import FloatingNav from "./sections/floating-nav/FloatingNav";
 
 const App = () => {
   const { themeState } = useThemeContext();
+
   return (
     <main className={`${themeState.primary} ${themeState.background}`}>
       <Navbar />
@@ -25,9 +25,8 @@ const App = () => {
       <FAQs />
       <Contact />
       <Footer />
-      <Modal />
       <Theme />
-      {/* <FloatingNav /> */}
+      <FloatingNav />
     </main>
   );
 };
