@@ -1,5 +1,3 @@
-import React from "react";
-
 const Nav = ({ className, item }) => {
   return (
     <li className={className}>
