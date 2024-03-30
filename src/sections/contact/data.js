@@ -12,8 +12,4 @@ const data = [
   { id: 3, icon: <FaWhatsapp />, link: "https://wa.me/+2348065893230" },
 ];
 
-// alternative whatsApp link
-// https://wa.me/yournumber
-// https://api.whatsapp.com/send/?phone=%2B233557097546
-
 export default data;
