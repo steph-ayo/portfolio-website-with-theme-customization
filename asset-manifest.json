@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio-website-with-theme-customization/static/css/main.6887f726.css",
+    "main.js": "/portfolio-website-with-theme-customization/static/js/main.4d5b9ef2.js",
+    "static/media/cv.pdf": "/portfolio-website-with-theme-customization/static/media/cv.eb7e7933658a4be6df96.pdf",
+    "static/media/project9.jpg": "/portfolio-website-with-theme-customization/static/media/project9.7e10b78179ee665298cd.jpg",
+    "static/media/project6.jpg": "/portfolio-website-with-theme-customization/static/media/project6.4e8ab78eb40a0f03bc88.jpg",
+    "static/media/project7.jpg": "/portfolio-website-with-theme-customization/static/media/project7.4389651d5816bb277c4a.jpg",
+    "static/media/project8.jpg": "/portfolio-website-with-theme-customization/static/media/project8.16ed43794953534af05c.jpg",
+    "static/media/project4.jpg": "/portfolio-website-with-theme-customization/static/media/project4.9e2e36250226a4ebb82b.jpg",
+    "static/media/project2.jpg": "/portfolio-website-with-theme-customization/static/media/project2.d4ca506cbd979283014a.jpg",
+    "static/media/project1.jpg": "/portfolio-website-with-theme-customization/static/media/project1.5cec46bd193a7eb80f22.jpg",
+    "static/media/project3.jpg": "/portfolio-website-with-theme-customization/static/media/project3.746fa9dfecfb9e491ef1.jpg",
+    "static/media/project5.jpg": "/portfolio-website-with-theme-customization/static/media/project5.fdd0c6a0d639a9c75455.jpg",
+    "static/media/about.jpg": "/portfolio-website-with-theme-customization/static/media/about.6afd6cd42d81640b75fa.jpg",
+    "static/media/header.jpg": "/portfolio-website-with-theme-customization/static/media/header.2ffcbad5b6ab430ade84.jpg",
+    "static/media/avatar5.jpg": "/portfolio-website-with-theme-customization/static/media/avatar5.d25e9a28e32aa5201afa.jpg",
+    "static/media/avatar7.jpg": "/portfolio-website-with-theme-customization/static/media/avatar7.ce63ba75f4177d9803fc.jpg",
+    "static/media/logo.jpg": "/portfolio-website-with-theme-customization/static/media/logo.ce63ba75f4177d9803fc.jpg",
+    "static/media/avatar6.jpg": "/portfolio-website-with-theme-customization/static/media/avatar6.8fbcd9d41881b442663e.jpg",
+    "index.html": "/portfolio-website-with-theme-customization/index.html",
+    "main.6887f726.css.map": "/portfolio-website-with-theme-customization/static/css/main.6887f726.css.map",
+    "main.4d5b9ef2.js.map": "/portfolio-website-with-theme-customization/static/js/main.4d5b9ef2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6887f726.css",
+    "static/js/main.4d5b9ef2.js"
+  ]
+}
